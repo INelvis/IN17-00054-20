@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>html forms</title>
+	<style type="text/css">
+	.box{
+		width: 400px;
+		height: 500px;
+		background-color: bisque;
+		background-size: cover;
+		background-position: center;
+		border-style: groove;
+		border-radius: 24px;
+		margin-right: auto;
+		margin-left: auto;
+		display: inline-block;
+	}
+	label{
+		margin-left: 30px;
+		display: inline-block;
+		width: 100px;
+		color: orange;
+
+	}
+	textarea{
+		width: 200px;
+		height: 100px;
+		font-size: 15px;
+	}
+	.in{
+		margin-left: 200px;
+	}
+	.btn1{
+		margin-left: 80px;
+		background-color: orangered;
+		color: darkblue;
+		width: 50px;
+		height: 25px;
+		font-size: 14px;
+		font-style: oblique;
+		border-radius: 35px;
+	}
+	.btn2{
+		margin-left: 60px;
+		background-color: orangered;
+		width: 60px;
+		height: 30px;
+		font-size: 15px;
+		font-style: italic;
+		color: blue;
+		border-radius: 35px;
+	}
+    .btn1:hover{
+    	background-color: blue;
+    	color: whitesmoke;
+    }
+    .btn2:hover{
+    	background-color: blue;
+    	color: whitesmoke;
+    }
+    </style>
+</head>
+<body>
+	<form action="" method="GET" class="box">
+		<br>
+	<label>Full Names</label>
+	<input type="text" name="FN" placeholder="enter your name"><br><br>
+	<label>Mobile No.</label>
+	<input type="text" name="MN" placeholder="enter your mobile No"><br><br>
+    <label>Gender</label><br><br>
+	<input type="radio" name="Gender" value="X">Male
+	<input type="radio" name="Gender" value="Y">Female<br><br>
+	<label>Date of birth</label>
+	<input type="date" name="Date of birth"><br><br>
+	<label>Email </label>
+	<input type="Email" name="Email" placeholder="enter email"><br><br>
+	<label>select your hood</label>
+	<select name="hood">
+	<option value="Buru buru">Buru buru</option>
+	<option value="Dandora">Dandora</option>
+	<option value="Dagoreti">Dagoreti</option>
+	<option value="Eastlegh">Eastlegh</option>
+	<option value="Embakasi">Embakasi</option>
+	<option value="Kangemi">Kangemi</option>
+	<option value="Kasarani">Kasarani</option>
+	<option value="Kayole">Kayole</option>
+	<option value="Kiambu">Kiambu</option>
+	<option value="Kibera">Kibera</option>
+	<option value="Kitengela">Kitengela</option>
+	<option value="Komarok">Komarok</option>
+	<option value="Ngong">Ngong</option>
+	<option value="Rongai">Rongai</option>
+	<option value="Thika">Thika</option>
+	<option value="Umoja">Umoja</option>
+    </select><br><br>
+	<label>Password</label>
+	<input type="Password" name="Password" placeholder="enter password"><br><br>
+    <label>Confirm Password</label>
+	<input type="Password" name="Password" placeholder="password"><br><br>
+	<button type="Reset" class="btn1">Reset</button>
+	<button type="Submit" class="btn2">Submit</button><br><br>
+		
+	</form>
+
+</body>
+</html>
